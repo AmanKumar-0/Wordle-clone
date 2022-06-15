@@ -38,7 +38,7 @@ function App() {
       alert("Word not found");
     }
 
-    if (currWord.toLowerCase() === correctWord) {
+    if (currWord === correctWord) {
       setGameOver({ gameOver: true, guessedWord: true });
       return;
     }
